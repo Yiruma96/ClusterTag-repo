@@ -12,7 +12,7 @@ ClusterTag is a novel cluster-based memory allocator that seamlessly integrates 
 ### Building ClusterTag
 
 ```bash
-git clone https://github.com/Yiruma96/ClusterTag.git
+git clone https://github.com/Yiruma96/ClusterTag-repo.git
 docker build -t clustertag .
 docker run -it clustertag
 ```
