@@ -6,7 +6,7 @@ ClusterTag is a novel cluster-based memory allocator that seamlessly integrates 
 
 ### Prerequisites
 - ARMv8 or ARMv9 architecture supports Top Byte Ignore (TBI) mechanism
-- At least 8GB of RAM and 20GB of free disk space for building LLVM
+- At least 8GB of RAM and 40GB of free disk space for building LLVM
 - Docker installed on your system
 
 ### Building ClusterTag
