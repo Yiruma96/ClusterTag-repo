@@ -1,0 +1,18 @@
+# Ignore unnecessary files during Docker build
+.git
+.gitignore
+*.md
+*.txt
+build/
+*.log
+*.tmp
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# Exclude compiled binaries and object files, but keep source files
+evaluation/*/clustertag/
+evaluation/*/hwasan/
+evaluation/*/*.o
+evaluation/*/*.out
